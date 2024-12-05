@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.1"
+  }
+}
