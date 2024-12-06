@@ -46,16 +46,16 @@
 /*Style reset*/
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input , button {
-  outline:none;
+  outline: none;
 }
 
 button {
@@ -162,14 +162,14 @@ button:hover {
 /* Edit Task */
 
 .task-item__input {
-  display:none
+  display: none
 }
 
 .edit-mode .task-item__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task-item__label {
-  display:none;
+  display: none;
 }
