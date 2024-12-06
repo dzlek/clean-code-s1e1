@@ -50,11 +50,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input , button {
+input,
+button {
   outline: none;
 }
 
@@ -102,7 +104,8 @@ button:hover {
 }
 
 /* New Task */
-.heading3[for="new-task"] {
+
+.new-task {
   display: block;
   margin: 0 0 20px;
 }
