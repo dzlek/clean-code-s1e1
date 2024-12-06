@@ -36,7 +36,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-flex {
@@ -136,7 +136,7 @@ button:hover {
 
 .task-item__input {
   font-size: 18px;
-  width: 226px
+  width: 226px;
 }
 
 .task-item__delete {
@@ -162,12 +162,12 @@ button:hover {
 /* Edit Task */
 
 .task-item__input {
-  display: none
+  display: none;
 }
 
 .edit-mode .task-item__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .task-item__label {
