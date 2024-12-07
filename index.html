@@ -11,7 +11,11 @@
   <body class="body">
     <header class="header">
       <h1 class="heading1">Todo App</h1>
-      <img class="header__img" src="./eisenhower-matrix.jpg">
+      <img 
+        class="header__img" 
+        src="./eisenhower-matrix.jpg" 
+        alt="Eisenhower Matrix"
+      >
       <a 
         class="header__more_info" 
         href="https://goal-life.com/page/method/matrix-eisenhower"
@@ -36,7 +40,7 @@
             <input class="task task-item__input" type="text">
             <button class="task-item__edit">Edit</button>
             <button class="task-item__delete">
-              <img class="task-item__img" src="./remove.svg">
+              <img class="task-item__img" src="./remove.svg" alt="remove">
           </button>
         </li>
         <li class="task-item edit-mode">
@@ -45,7 +49,7 @@
           <input class="task task-item__input" type="text" value="Go Shopping" >
           <button class="task-item__edit">Save</button>
           <button class="task-item__delete">
-            <img class="task-item__img" src="./remove.svg">
+            <img class="task-item__img" src="./remove.svg"  alt="remove">
           </button>
         </li>
       </ul>
@@ -55,11 +59,15 @@
         <ul id="completed-tasks">
           <li class="task-item">
           <input class="task-item__checkbox" type="checkbox" checked>
-          <label class="task task-item__label task-item__label_completed">See the Doctor</label>
+          <label 
+            class="task task-item__label task-item__label_completed"
+          >
+          See the Doctor
+          </label>
           <input class="task task-item__input" type="text" >
           <button class="task-item__edit">Edit</button>
           <button class="task-item__delete">
-            <img class="task-item__img" src="./remove.svg">
+            <img class="task-item__img" src="./remove.svg"  alt="remove">
           </button>
         </li>
       </ul>
