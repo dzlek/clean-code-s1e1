@@ -10,6 +10,7 @@
   </head>
   <body class="body">
     <header class="header">
+      <h1 class="heading1">Todo App</h1>
       <img class="header__img" src="./eisenhower-matrix.jpg">
       <a 
         class="header__more_info" 
@@ -19,22 +20,23 @@
       </a>
     </header>
     <main class="main">
-      <p>
-        <h3 class="heading3 new-task" for="new-task">Add Item</h3>
-        <div class="task-flex">
-          <input id="new-task" class="task task__input" type="text">
+      <section class="new-task">
+        <h2 class="heading2 new-task_title" for="new-task">Add Item</h2>
+        <div class="new-task_flex">
+          <input class="task new-task__input" id="new-task"  type="text">
           <button id="add-task">Add</button>
         </div>
-      </p>
-      <h3 class="heading3">Todo</h3>
-      <ul id="incomplete-tasks">
-        <li class="task-item">
-          <input class="task-item__checkbox" type="checkbox">
-          <label class="task task-item__label">Pay Bills</label>
-          <input class="task task-item__input" type="text">
-          <button class="task-item__edit">Edit</button>
-          <button class="task-item__delete">
-            <img class="task-item__img" src="./remove.svg">
+      </section>
+      <section class="incomplete-tasks">
+        <h2 class="heading2">Todo</h2>
+        <ul id="incomplete-tasks">
+          <li class="task-item">
+            <input class="task-item__checkbox" type="checkbox">
+            <label class="task task-item__label">Pay Bills</label>
+            <input class="task task-item__input" type="text">
+            <button class="task-item__edit">Edit</button>
+            <button class="task-item__delete">
+              <img class="task-item__img" src="./remove.svg">
           </button>
         </li>
         <li class="task-item edit-mode">
@@ -47,9 +49,11 @@
           </button>
         </li>
       </ul>
-      <h3 class="heading3">Completed</h3>
-      <ul id="completed-tasks">
-        <li class="task-item">
+      </section>
+      <section class="completed-tasks">
+        <h2 class="heading2">Completed</h2>
+        <ul id="completed-tasks">
+          <li class="task-item">
           <input class="task-item__checkbox" type="checkbox" checked>
           <label class="task task-item__label task-item__label_completed">See the Doctor</label>
           <input class="task task-item__input" type="text" >
@@ -59,6 +63,7 @@
           </button>
         </li>
       </ul>
+    </section>
     </main>
     <script src="app.js"></script>
   </body>
