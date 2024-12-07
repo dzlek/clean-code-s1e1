@@ -55,11 +55,6 @@ h2 {
   list-style: none;
 }
 
-input,
-button {
-  outline: none;
-}
-
 button {
   background: none;
   border: 0px;
@@ -108,7 +103,7 @@ button:hover {
 
 /* New Task */
 
-.new-task_title{
+.new-task__title{
   display: block;
   margin: 0 0 20px;
 }
