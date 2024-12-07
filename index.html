@@ -27,7 +27,7 @@
       <section class="new-task">
         <h2 class="heading2 new-task__title" for="new-task">Add Item</h2>
         <div class="new-task_flex">
-          <input class="task new-task__input" id="new-task" type="text">
+          <input class="task-item_inline new-task__input" id="new-task" type="text">
           <button class="new-task__button" id="add-task">Add</button>
         </div>
       </section>
@@ -36,8 +36,8 @@
         <ul id="incomplete-tasks">
           <li class="task-item">
             <input class="task-item__checkbox" type="checkbox">
-            <label class="task task-item__label">Pay Bills</label>
-            <input class="task task-item__input" type="text">
+            <label class="task-item_inline task-item__label">Pay Bills</label>
+            <input class="task-item_inline task-item__input" type="text">
             <button class="task-item__edit">Edit</button>
             <button class="task-item__delete">
               <img class="task-item__img" src="./remove.svg" alt="remove">
@@ -45,8 +45,8 @@
         </li>
         <li class="task-item edit-mode">
           <input class="task-item__checkbox" type="checkbox">
-          <label class="task task-item__label">Go Shopping</label>
-          <input class="task task-item__input" type="text" value="Go Shopping" >
+          <label class="task-item_inline task-item__label">Go Shopping</label>
+          <input class="task-item_inline task-item__input" type="text" value="Go Shopping" >
           <button class="task-item__edit">Save</button>
           <button class="task-item__delete">
             <img class="task-item__img" src="./remove.svg"  alt="remove">
@@ -60,11 +60,11 @@
           <li class="task-item">
           <input class="task-item__checkbox" type="checkbox" checked>
           <label 
-            class="task task-item__label task-item__label_completed"
+            class="task-item_inline task-item__label task-item__label_completed"
           >
           See the Doctor
           </label>
-          <input class="task task-item__input" type="text" >
+          <input class="task-item_inline task-item__input" type="text" >
           <button class="task-item__edit">Edit</button>
           <button class="task-item__delete">
             <img class="task-item__img" src="./remove.svg"  alt="remove">

@@ -33,7 +33,7 @@
   margin: 0 auto 0;
 }
 
-.task {
+.task-item_inline {
   width: 56%;
   display: inline-block;
   flex-grow: 1;

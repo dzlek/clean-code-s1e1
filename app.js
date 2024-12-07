@@ -22,11 +22,11 @@ let createNewTaskElement = function (inputText) {
   checkBox.type = "checkbox";
   //label
   let label = document.createElement("label"); //label
-  label.className = "task task-item__label";
+  label.className = "task-item_inline task-item__label";
   label.innerText = inputText;
   //input (text)
   let editInput = document.createElement("input"); //text
-  editInput.className = "task task-item__input";
+  editInput.className = "task-item_inline task-item__input";
   editInput.type = "text";
   editInput.value = inputText;
 
